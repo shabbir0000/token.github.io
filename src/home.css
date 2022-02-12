@@ -1,0 +1,64 @@
+.fsection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10rem 2fr 2fr;
+    grid-template-rows: 50rem ;
+    align-items: center;
+}
+
+.cs1{
+align-items: center;
+}
+.f1section{
+    display: grid;
+    height: 30rem;
+    grid-column: 2/3;
+}
+.f2section{
+   height: 30rem;
+}
+
+.connect{
+    border-radius: 12px;
+    padding: 4px;
+    margin: 4px 2px;
+    display: inline-block;
+}
+
+.cardshow{
+    display: grid;
+    grid-column: 3/4;
+    grid-template-rows: 10rem ;
+    grid-template-columns: 45rem;
+    height: 30rem;
+    justify-items: center;
+    
+    
+    
+}
+
+.cardstyle{
+    width: 30rem;
+    height: 15rem;
+    color: white;
+    text-decoration:underline;
+    font-size: 15px;
+    background-color: rgb(194, 220, 228);
+    background-image: 
+    radial-gradient(at 0% 0%, rgb(136, 123, 199) 0, transparent 50%),
+    radial-gradient(at -30% 0%, rgb(68, 24, 148) 0, transparent 50%), 
+    radial-gradient(at -50% 0%, rgb(77, 108, 207) 0, transparent 50%),
+    radial-gradient(at -60% 0%, rgb(141, 81, 99) 0, transparent 50%),
+    radial-gradient(at -70% 0%, rgb(29, 41, 82) 0, transparent 50%),
+    radial-gradient(at 80% 0%, rgb(190, 124, 196) 0, transparent 50%),
+    radial-gradient(at 0% 100%, rgb(113, 70, 182) 0, transparent 50%);
+
+}
+
+.cardstyle :hover{
+    background-color: rgb(226, 208, 208);
+    color: black;
+    text-decoration : underline;
+}
+
+
